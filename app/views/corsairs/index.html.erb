@@ -3,17 +3,18 @@
 
 <!-- Index des Moussaillons -->
 <h1 align="center">Liste des Moussaillons</h1>
-<table>
+<table align="center">
   <tr>
 
     <!-- Initiation d'un tableau -->
-    <th align="center">Prénom  </th>
+
+    <th>Prénom  </th>
     </br>
-    <th align="center">- Age</th>
+    <th>- Age</th>
   </tr>
  
   <% @corsairs.each do |corsair| %> 
-    <tr>
+    <tr align="center">
       <td><%= corsair.first_name %></td></br>
 
 
@@ -28,10 +29,10 @@
 
       <td> - <%= link_to "Delete and exit", corsair_path(corsair),
               method: :delete,
-              data: { confirm: 'Gros t es sérieux? ? t aimerais qu on te supprime comme ça en un click?' } %> </td></br>
+              data: { confirm: 'Gros t\'es sérieux? ? t\'aimerais qu on te supprime comme ça en un click?' } %> </td></br>
 
     </tr>
   <% end %>
 </table>
 
-<p> <%= link_to('Créer un nouveau profil', new_corsair_path ) %> </p> 
+<p align = "center"> <%= link_to('Créer un nouveau profil', new_corsair_path ) %> </p> 
