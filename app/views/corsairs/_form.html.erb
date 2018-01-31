@@ -1,0 +1,30 @@
+</br>
+</br>
+
+<%= form_with model: @corsair, local: true do |form| %>
+
+ <p align="center">
+   <%= form.label "Quel est ton prénom ?" %><br>
+   <%= form.text_field :first_name %>
+ </p>
+</br>
+ <p align="center">
+   <%= form.label "Quel âge as-tu mon enfant ?" %><br>
+   <%= form.number_field :age %>
+ </p>
+ </br>
+ </br>
+ 
+
+ <p align="center"> Dans l'optique d'une étude de l'INSEE, nous avons besoin de savoir si tu es plutôt Hummus ou kebab ? (En vrai on s'en fou, j'compte pas te payer à manger)  </p>
+ <div align="center">
+	<%= form.radio_button :likeness, 'Kebab' %> Un bon gros grec ! 
+	<%= form.radio_button :likeness, 'Hummus' %> Le hummus des familles.
+</div>
+
+ <p align="center">
+   <%= form.submit "Valider" %>
+ </p>
+
+<% end %>
+
