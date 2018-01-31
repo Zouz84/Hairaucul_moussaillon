@@ -1,9 +1,7 @@
-# Salut Moussaillon !
-
 Tout d'abord *félicitation*! Si tu visite cette page c'est probablement que t'as toi aussi survécu à ces 3 dernières semaines __*intenses*__ !
 
 
-## Recensement des moussaillons
+# Recensement des moussaillons
 Si tu clique [ici](https://calm-basin-88192.herokuapp.com/), ou [ici](https://calm-basin-88192.herokuapp.com/), ou encore ici (ah non...) tu tomberas sur mon application heroku __online__. 
 <br/>
 ### Github:
